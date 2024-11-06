@@ -1,6 +1,6 @@
-@base <http://users.dcc.uchile.cl/~mntn/foaf.ttl> .
+@base <https://raw.githubusercontent.com/mvcson/foaf-profile/main/foaf.ttl> .
 
-@prefix mntn: <http://users.dcc.uchile.cl/~mntn/foaf.ttl#> .
+@prefix mntn: <https://raw.githubusercontent.com/mvcson/foaf-profile/main/foaf.ttl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -24,7 +24,7 @@
    foaf:img <https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXOt1iuMgehP4yOh4Kp_qF_jLCdB7SlfVc2A&s> ;
    foaf:homepage <https://www.linkedin.com/in/matías-torres-nav> ;
    foaf:knows <http://users.dcc.uchile.cl/~rzanca/foaf.ttl> ,
-              <https://raw.githubusercontent.com/Sulkyy1/profile/refs/heads/main/foaf.ttl> ,
+              <https://raw.githubusercontent.com/Sulkyy1/profile/main/foaf.ttl> ,
               <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> ;
    foaf:interest <https://dbpedia.org/page/Club_Universidad_de_Chile> ,
                  <https://dbpedia.org/page/Sangria> ,
