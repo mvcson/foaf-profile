@@ -1,0 +1,37 @@
+@base <http://users.dcc.uchile.cl/~mntn/foaf.ttl> .
+
+@prefix mntn: <http://users.dcc.uchile.cl/~mntn/foaf.ttl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix social: <http://users.dcc.uchile.cl/~ahogan/social.ttl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+
+<> a foaf:Document ;
+   dc:date "2024-11-05"^^xsd:date ;
+   dc:title "Matías Torres FOAF Profile"@es ;
+   foaf:primaryTopic <#mntn> ;
+   dc:creator <#mntn> .
+
+<#mntn> a foaf:Person ;
+   rdfs:label "Matías Torres" ;
+   foaf:name "Matías Torres" ;
+   foaf:givenName "Matías" ;
+   foaf:familyName "Torres" ;
+   foaf:age 22 ;
+   foaf:img <https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXOt1iuMgehP4yOh4Kp_qF_jLCdB7SlfVc2A&s> ;
+   foaf:homepage <https://www.linkedin.com/in/matías-torres-nav> ;
+   foaf:knows <http://users.dcc.uchile.cl/~rzanca/foaf.ttl> ,
+              <https://raw.githubusercontent.com/Sulkyy1/profile/refs/heads/main/foaf.ttl> ,
+              <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> ;
+   foaf:interest <https://dbpedia.org/page/Club_Universidad_de_Chile> ,
+                 <https://dbpedia.org/page/Sangria> ,
+                 <https://dbpedia.org/page/Brawl_Stars> ;
+   social:likesMovie <https://dbpedia.org/page/The_Fast_and_the_Furious:_Tokyo_Drift> ,
+                     <https://dbpedia.org/page/Interstellar_(film)> ,
+                     <https://dbpedia.org/page/Your_Name> ;
+   social:hasSpiritAnimal <https://dbpedia.org/page/Raccoon> ;
+   social:hasFavouritePlatonicSolid <https://dbpedia.org/page/Cube> ;
+   foaf:myersBriggs "INFJ" .
